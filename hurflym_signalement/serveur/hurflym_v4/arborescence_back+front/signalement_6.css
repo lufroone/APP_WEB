@@ -1,0 +1,248 @@
+:root {
+    --couleur-de-fond: #499CE1;
+    --couleur-de-case: #3d83bd;
+    --couleur-dombre-de-case: #55b5ff;
+    --couleur-ecriture: black;
+    --couleur-bouton: #183153;
+    --couleur-bouton-ecriture: white;
+    --couleur-de-lombre-du-bouton: rgba(0, 0, 0, 0.2);
+}
+
+
+/* Styles pour les ordinateurs */
+@media only screen and (min-width: 768px) {
+    /* Ajouter vos styles CSS ici */
+    
+body{
+    margin: 0;
+    display: center;
+    background-color: var(--couleur-de-fond);
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    margin-top: 20px;
+}
+
+.introduction {
+    margin-top: 40px;
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+.a_supp{
+    margin-top: -15px;
+}
+
+.Categorie_Primaire,.Categorie_Secondaire,.Equipement{
+    width: 80%;
+    margin-bottom: 100px;
+    border-radius: 88px;
+    border-radius: 88px;
+    border-color: transparent;
+    background: var(--couleur-de-fond);
+    box-shadow:  00px 00px 00px var(--couleur-de-case),
+             -20px 20px 50px var(--couleur-dombre-de-case);
+}
+
+.Categorie_Secondaire, .Equipement{
+    margin-left: 10%;
+}
+
+.Categorie_Primaire{
+    margin-left: 5%;
+}
+
+.center{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description,.Nom_Equipement{
+    margin-top: 5px;
+    padding-bottom: 20px;
+    font-size: 1.6rem;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#consigne{
+    margin-bottom: 50px;
+}
+
+.button2{
+    margin-top: 40px;
+    width: 40%;
+    margin-left:30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: var(--couleur-bouton);
+    color: var(--couleur-bouton-ecriture);
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    box-shadow: 0px 6px 24px 0px var(--couleur-de-lombre-du-bouton);
+    overflow: hidden;
+    border: none;
+}
+
+.button3{
+    margin-top: 40px;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: var(--couleur-bouton);
+    color: var(--couleur-bouton-ecriture);
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    box-shadow: 0px 6px 24px 0px var(--couleur-de-lombre-du-bouton);
+    overflow: hidden;
+    border: none;
+}
+
+}
+  
+  /* Styles pour les téléphones mobiles */
+@media only screen and (max-width: 767px) {
+    
+    body{
+        margin: 0;
+        display: center;
+        background-color: var(--couleur-de-fond);
+        text-align: center;
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .header{
+        margin-top: 20px;
+    }
+    
+    .introduction {
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    main{
+        text-align: center;
+    }
+    
+    .a_supp{
+        margin-top: -15px;
+    }
+    
+    .Categorie_Primaire,.Categorie_Secondaire,.Equipement{
+        width: 80%;
+        border-radius: 88px;
+        border-radius: 88px;
+        border-color: transparent;
+        background: var(--couleur-de-fond);
+        box-shadow:  50px 50px 100px var(--couleur-de-case),
+                 -50px -50px 100px var(--couleur-dombre-de-case);
+    }
+    
+    .Categorie_Secondaire, .Equipement{
+        margin-left: 10%;
+    }
+    
+    .Categorie_Primaire{
+        margin-left: 0%;
+    }
+    
+    .center{
+        width: 70%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .description,.Nom_Equipement{
+        margin-top: 5px;
+        padding-bottom: 20px;
+        font-size: 1.6rem;
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    
+    #consigne{
+        margin-bottom: 50px;
+    }
+    
+    .button2{
+        margin-top: 40px;
+        width: 60%;
+        margin-left:20%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background: var(--couleur-bouton);
+        color: var(--couleur-bouton-ecriture);
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.7rem;
+        box-shadow: 0px 6px 24px 0px var(--couleur-de-lombre-du-bouton);
+        overflow: hidden;
+        border: none;
+    }
+    
+    .button3{
+        margin-top: 40px;
+        width: 60%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background: var(--couleur-bouton);
+        color: var(--couleur-bouton-ecriture);
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.7rem;
+        box-shadow: 0px 6px 24px 0px var(--couleur-de-lombre-du-bouton);
+        overflow: hidden;
+        border: none;
+    }
+
+    .button4{
+        margin-top: 20px;
+        width: 60%;
+        margin-left: 20%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background: var(--couleur-bouton);
+        color: var(--couleur-bouton-ecriture);
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.7rem;
+        box-shadow: 0px 6px 24px 0px var(--couleur-de-lombre-du-bouton);
+        overflow: hidden;
+        border: none;
+    }
+    
+    /* Styles pour les téléphones iPhone 5/SE et plus petits */
+    @media only screen and (max-width: 568px) {
+      
+    }
+    
+    /* Styles pour les téléphones iPhone 6/7/8 et plus grands */
+    @media only screen and (min-width: 569px) {
+      
+    }
+}
+  
+
+

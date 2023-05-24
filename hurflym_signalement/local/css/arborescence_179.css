@@ -1,0 +1,803 @@
+:root {
+    --couleur-de-fond: #499CE1;
+    --couleur-de-case: #3d83bd;
+    --couleur-dombre-de-case: #55b5ff;
+    --couleur-ecriture: black;
+    --couleur-bouton: #183153;
+    --couleur-bouton-ecriture: white;
+    --couleur-de-lombre-du-bouton: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+body{
+    color: #ffffff!important;
+    border-radius: 0px;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-family: 'Titillium Web',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    margin:0;
+    background-color: #1b1f50;
+    text-align:center;
+    margin-right: auto;
+    margin-left:auto;
+    background: rgb(27,31,80);
+    background: linear-gradient(0deg, rgba(27,31,80,1) 0%, rgba(67,40,183,1) 100%);
+}
+
+main{
+    width: 80%;
+    padding: 0px;
+    margin-top: 9%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header{
+    margin-top:8px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.27%;
+}
+
+h3{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 11px;
+}
+
+.foter{
+    background-color: #28186A;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.logo{
+    margin-left:25%;
+}
+
+
+.img{
+    margin-left:auto;
+}
+
+.middle{
+    width: 25%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:17%;
+}
+
+
+.trait{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-bottom: 2.75%;
+    height: 4px;
+    max-width: 80px;
+    margin: 0 0 30px;
+    position: relative;
+    background-color: #4328B7;
+}
+
+.trait_bas{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-bottom: 2.75%;
+    height: 4px;
+    max-width: 80px;
+    margin: 0 0 30px;
+    position: relative;
+    background-color: #1b1f50;
+}
+
+.center{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.bas_de_page{
+    width:100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../image/bas_de_page_4.svg');
+}
+
+.bordure_haut_de_page{
+    width:100%;
+    height:400px;
+    margin-top:-8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../image/bordure_haut_de_page_2.svg');
+}
+
+.vague_basse_salle{
+    width:100%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../image/vague_basse_salle.svg');
+}
+
+.vague_basse_signalement{
+    width:100%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../image/vague_basse_signalement.svg');
+}
+
+.vague_haute_salle{
+    width:100%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../image/vague_haute_salle.svg');
+}
+
+.vague_haute_signalement{
+    width:100%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../image/vague_haute_signalement.svg');
+}
+
+.entre_deux{
+    width:100%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../image/entre_deux_2.svg');
+}
+
+
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.element{
+    width: 94%;
+    border-radius: 50px;
+    margin-left: 6%;
+    margin-bottom: 3%;
+    background: #111435;
+}
+
+.signalement{
+    width: 96%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    background: rgb(27,31,80);
+    background: linear-gradient(90deg, rgba(27,31,80,1) 0%, rgba(67,40,183,1) 50%, rgba(226,89,225,1) 100%);
+    border-radius: 50px;
+}
+
+#element0{
+    height: 500px;
+    width: 90%;
+}
+
+.gestion_element{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+.bouton_signalement_menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nom_element{
+    width: 70%;
+    padding-left: 3rem;
+    font-size: 2rem;
+}
+
+.nom_signalement{
+    width: 90%;
+    padding-left: 40px;
+    font-size: 1rem;
+}
+
+.nouveau_signalement .nom_signalement{
+    width: 90%;
+    font-size: 1rem;
+    padding-left: 0px;
+}
+
+.nouveau_signalement .lieu_signalement{
+    margin-right: 60px;
+}
+
+.bouton_ajouter, .bouton_supprimer, .bouton_modifier, .bouton_modifier_element, .bouton_deplacer, .bouton_demande_qrcode,.bouton_deplacer_element,.bouton_suppression,.bouton_actif_inactif{
+    width:60px;
+    cursor:pointer;
+}
+
+
+.popup_ajouter,.popup_supprimer,.popup_modifier_equipement,.popup_modifier_element,.popup_modifier_signalement,.popup_deplacer_signalement,.popup_deplacer_element,.popup_creation_equipement,.popup_creation_equipement_particulier,.popup_supprimer_equipement,.popup_recherche_equipement,.popup_modifier_equipement_particulier,.popup_recherche_equipement_particulier,.popup_supprimer_equipement_particulier,.popup_supprimer_signalement,.popup_recherche_signalement,.popup_creation_signalement,.popup_modifier_template,.popup_recherche_template,.popup_creation_template,.popup_supprimer_template,.popup_changement_detat_incident,.popup_changement_detat_signalement,.popup_demande_qrcode,.popup_ajout_dun_administrateur,.popup_modifier_mot_de_passe{
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgb(0,0,0,0.7);
+    transition: opacity 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.popup_ajouter:target,.popup_supprimer:target,.popup_modifier_equipement:target,.popup_modifier_element:target,.popup_modifier_signalement:target,.popup_deplacer_signalement:target,.popup_deplacer_element:target,.popup_creation_equipement:target,.popup_creation_equipement_particulier:target,.popup_supprimer_equipement:target,.popup_recherche_equipement:target,.popup_modifier_equipement_particulier:target,.popup_recherche_equipement_particulier:target,.popup_supprimer_equipement_particulier:target,.popup_supprimer_signalement:target,.popup_recherche_signalement:target,.popup_creation_signalement:target,.popup_modifier_template:target,.popup_recherche_template:target,.popup_creation_template:target,.popup_supprimer_template:target,.popup_changement_detat_incident:target,.popup_changement_detat_signalement:target,.popup_demande_qrcode:target,.popup_ajout_dun_administrateur:target,.popup_modifier_mot_de_passe:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.page{
+    display: none;
+}
+
+.formulaire_ajouter, .formulaire_creation, .formulaire_modifier_element, .formulaire_deplacer_signalement, .formulaire_deplacer_element,.formulaire_contact,.formulaire_demande_support,.formulaire_creation_equipement,.formulaire_creation_equipement_particulier,.formulaire_modifier_equipement,.formulaire_supprimer_equipement,.formulaire_recherche_equipement,.formulaire_modifier_equipement_particulier,.formulaire_recherche_equipement_particulier,.formulaire_supprimer_equipement_particulier, .formulaire_supprimer_signalement,.formulaire_recherche_signalement,.formulaire_recherche_template,.formulaire_supprimer_template,.formulaire_changement_detat_incident,.formulaire_changement_detat_signalement,.formulaire_demande_qrcode,.formulaire_ajout_dun_administrateur,.formulaire_modifier_mot_de_passe{
+    position:absolute;
+    top: 15%;
+    width: 33%;
+    left: 33%;
+    padding: 20px;
+    background-color:#1b1f50;
+    border-radius: 50px;
+    color: white;
+}
+
+.formulaire_modifier_signalement,.formulaire_modifier_template,.formulaire_creation_signalement,.formaulire_creation_template{
+    position:absolute;
+    top: 5%;
+    width: 66%;
+    left: 16%;
+    padding: 20px;
+    background-color:#1b1f50;
+    border-radius: 50px;
+    color: white;
+}
+
+.double_colonne{
+    display: flex;
+    width: 100%;
+}
+
+.colonne_1{
+    width: 47%;
+    height:200px;
+    overflow: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.colonne_2{
+    width: 47%;
+    height:200px;
+    overflow: auto;
+}
+
+.cross{
+    font-size: 5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #4328B7;
+    width: 9%;
+    padding-right: 5%;
+    text-align: left;
+    cursor:pointer;
+}
+
+.text_haut_popup{
+    width: 90%;
+    text-align: center;
+}
+
+.choix{
+    display: inline-block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    padding-bottom: 2%; 
+    background-color: #4328B7;
+    margin: 2%;
+    color: white;
+    font-size: 2rem;
+    border-width: 0px;
+    border-radius: 50px;
+}
+
+.moyen_choix{
+    display: inline-block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+    padding-bottom: 1%; 
+    background-color: #4328B7;
+    margin: 1%;
+    color: white;
+    font-size: 1rem;
+    border-width: 0px;
+    border-radius: 50px;
+}
+
+.petit_choix{
+    display: inline-block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%; 
+    background-color: #4328B7;
+    margin: 0.5%;
+    color: white;
+    font-size: 0.9rem;
+    border-width: 0px;
+    border-radius: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.formulaire_supprimer{
+    position:absolute;
+    top: 15%;
+    width: 33%;
+    left: 33%;
+    background-color:#1b1f50;
+    border: 3px solid #1b1f50;
+    box-shadow: 0 0 2em #4328B7;
+    color: white;
+}
+
+.gestion_bouton{
+    display: flex;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: left;
+    text-align: center;
+}
+
+.bouton{
+    display: inline-block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    padding-bottom: 2%; 
+    background: rgb(67,40,183);
+    background: linear-gradient(0deg, rgba(67,40,183,1) 0%, rgba(148,40,183,1) 86%);
+    margin: 2%;
+    color: white;
+    font-size: 2rem;
+    border-width: 0px;
+    border-radius: 50px;
+}
+
+.decalage{
+    margin-right: 5%;
+}
+
+.popup_creation, .popup_contact, .popup_demande_support{
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgb(0,0,0,0.7);
+    transition: opacity 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.popup_creation:target,.popup_contact:target,.popup_demande_support:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.page_principal{
+    margin-left: 150px;
+    width: 88%;
+    
+}
+
+.annonce{
+    text-align: left;
+    font-size: large;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.incident, .nouveau_signalement{
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    width: 80%;
+    color: white;
+}
+
+.incident{
+    padding-bottom: 10px;
+}
+
+.probleme,.nom_lieu,.contenu,.date,.date_nouveau_signalement{
+    width: 24%;
+}
+
+.Nom_Lieu_incident{
+    width: 24%;
+    font-size: 1rem;
+    padding-top: 10px;
+}
+
+.affichage{
+    padding-top: 15px;
+}
+
+.gestion_signalement,.gestion_incident,.gestion_creation_equipement,.gestion_creation_equipement_particulier,.gestion_creation_template,.gestion_creation_signalement{
+    background-color: #0c1145;
+    margin-bottom:20px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.bouton_incident{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;;
+    padding-left: 10px; 
+    background-color: #4328B7;
+    color: white;
+    font-size: 1rem;
+    border-radius: 50px;
+    border: 0px;
+}
+
+.contenu{
+    margin: 10px;
+}
+
+.demande{
+    display: inline-block;
+    width: 50%;
+    margin-left: 45%;
+    margin-right: auto;
+    padding-top: 2%;
+    padding-bottom: 2%; 
+    background: rgb(67,40,183);
+    background: linear-gradient(0deg, rgba(67,40,183,1) 0%, rgba(148,40,183,1) 86%);
+    margin: 2%;
+    color: white;
+    font-size: 2rem;
+    border-width: 0px;
+    border-radius: 50px;
+}
+
+.outil_{
+    display: inline-block;
+    width: 30rem;
+    padding: 1rem;
+    background: rgb(27,31,80);
+    background: linear-gradient(180deg, rgba(27,31,80,1) 0%, rgba(67,40,183,1) 100%);
+    box-shadow: 0px 0px 9px rgba(27, 31, 80, 0.4);
+    /*background: rgb(67,40,183);
+    background: linear-gradient(0deg, rgba(67,40,183,1) 0%, rgba(148,40,183,1) 86%);*/
+    margin: 1.5rem;
+    color: white;
+    font-size: 1.5rem;
+    border-width: 0px;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: margin 0.8s, padding 0.8s, font-size 0.8s;
+}
+
+.outil_:hover{
+    margin: 1rem;
+    padding: 1.5rem;
+}
+
+
+.first-child,.annonce{
+    border-radius: 50px 50px 0px 0px;
+    background: rgb(67,40,183);
+    background: linear-gradient(90deg, rgba(67,40,183,1) 35%, rgba(230,137,166,1) 100%);
+}
+
+.annonce{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 3rem;
+    font-size: 2rem;
+}
+
+.en-tete{
+    height: 80px;
+    padding-top: 10px;
+    font-size: 3rem;
+    border-radius: 50px 50px 0px 0px;
+    background: rgb(67,40,183);
+    background: linear-gradient(0deg, rgba(67,40,183,1) 50%, rgba(238,107,148,1) 100%);
+}
+/* C42456*/
+
+.menu-a-gauche{
+    display: flex;
+    flex-direction:column;
+    position: fixed;
+    left:-70px;
+    top: 0px;
+    width: 8rem;
+    background-color: #4328B7;
+    border-right: solid #111435 1px;
+    /*background: rgb(27,31,80);
+    background: linear-gradient(270deg, rgba(27,31,80,1) 0%, rgba(67,40,183,1) 100%);*/
+    /*background: rgb(12,17,69);
+    background: linear-gradient(90deg, rgba(12,17,69,1) 0%, rgba(67,40,183,1) 89%, rgba(213,100,217,1) 100%);*/
+    height:1500px;
+    transition: left 1.2s;
+}
+
+.menu-a-gauche:hover{
+    left: 0px;
+   
+}
+
+.menu-a-gauche:hover .menu_arborescence,.menu-a-gauche:hover .menu_ticketing,.menu-a-gauche:hover .menu_parametre,.menu-a-gauche:hover .menu_informations,.menu-a-gauche .menu_personalisation{
+    margin-right: 0px;
+}
+
+.menu_arborescence,.menu_ticketing,.menu_parametre,.menu_informations,.menu_personalisation{
+    margin-right: 400px;
+    transition: margin-right 1.2s;
+}
+
+
+
+.menu_arborescence{
+    margin-top: 20px;
+}
+
+.menu_parametre{
+    margin-top: -10px;
+}
+
+.widget{
+    margin-bottom:20px;
+}
+
+.image_widget{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+
+.image_widget:hover{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    transition: width 1.2s, height 1.2s, margin-bottom 1.2s, margin-top 1.2s;
+}
+
+.a_gauche{
+    margin-left: 9rem;
+    margin-top:2rem;
+    text-align: left;
+}
+
+.acceuil_des_sections{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+#bouton_equipement,#bouton_signalement,#bouton_equipement_particulier{
+    font-size: 2rem;
+    color: white;
+    width: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: #4328B7;
+    background-color:#4328B7;
+    box-shadow: 0px 0px 9px rgba(27, 31, 80, 0.4);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.8s;
+}
+
+#bouton_equipement:hover,#bouton_signalement:hover,#bouton_equipement_particulier:hover{
+    background-color: #111435;
+}
+
+.equipement,.equipement_particulier,.template, .signalement{
+    width:100%;
+}
+
+.equipement_des_templates,.equipement_des_signalements{
+    padding-right: 20px;
+    font-size : 0.5rem;
+}
+
+
+
+.information_equipement,.information_equipement_particulier,.Liste_des_equipements{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    padding-left: 9rem;
+}
+
+
+.gestion_equipement,.gestion_equipement_particulier,.gestion_template,.gsetion_signalement{
+    display:flex;
+    justify-content: space-between!important;
+    width:100%;
+}
+
+.image_equipement,.description_equipement,.categorie_equipement,.image_equipement_particulier,.description_equipement_particulier,.categorie_equipement_particulier{
+    padding: 2rem;
+}
+
+.nom_equipement,.nom_equipement_particulier,.nom_template,.nom_signalement{
+    display: inline-block;
+    font-size: 2rem;
+    padding-left: 7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 70%;
+    text-align: left;
+}
+
+.menu_bouton{
+    display: flex;
+    width: 8rem;
+    padding-top:2rem;
+    padding-right: 2rem;
+}
+
+.trait_equipement,.trait_equipement_particulier,.trait_template, .trait_signalement{
+    width: 80%;
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: #4328B7;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: 10%;
+}
+
+
+.centre{
+    display: flex;
+    width: 90%;
+    margin-left:5%;
+    height: 1000px;
+}
+.partie_gauche{
+    width:50%;
+}
+.partie_droite{
+    width:50%;
+}
+
+
+#fausse_page{
+    width: 90%;
+    height: 90%;
+    margin-left:5%;
+}
+
+#faux_bandeau{
+    height: 10%;
+    text-align: left;
+    background-color: var(--couleur-de-fond);
+}
+
+#faux_body{
+    width:100%;
+    padding-top:12%;
+    background-color: var(--couleur-de-fond);
+}
+
+#faux_cadre{
+    width: 70%;
+    margin-top:10%;
+    margin-bottom:10%;
+    margin-left:15%;
+    background-color: var(--couleur-de-case);
+    padding-top: 3%;
+    padding-bottom:3%;
+}
+
+#faux_trait{
+    width: 80%;
+    margin-left: 10%;
+    height: 5px;
+    margin-top:15px;
+    margin-bottom:15px;
+    background-color: var(--couleur-dombre-de-case);
+}
+
+#faux_logo{
+    margin-top:3%;
+    margin-left: 5%;
+}
+
+#faux_equipement{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 100px;
+    border-radius: 88px;
+    border-radius: 88px;
+    border-color: transparent;
+    background: var(--couleur-de-fond);
+    box-shadow:  00px 00px 00px var(--couleur-de-case),
+             -20px 20px 50px var(--couleur-dombre-de-case);
+}
+
+#faux_nom_equipement{
+    color: var(--couleur-ecriture);
+}
+
+#faux_button3{
+    margin-top: 40px;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: var(--couleur-bouton);
+    color: var(--couleur-bouton-ecriture);
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    box-shadow: 0px 6px 24px 0px var(--couleur-de-lombre-du-bouton);
+    overflow: hidden;
+    border: none;
+}
+
+#graphique{
+    width: 600px;
+    height: 500px;
+}

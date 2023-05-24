@@ -1,0 +1,260 @@
+/* Styles pour les ordinateurs */
+@media only screen and (min-width: 768px) {
+    
+.fond {
+    left:0px;
+    top:0px;
+    width: 100%;
+    position: absolute;
+    height: 1200px;
+    background: rgb(27,31,80);
+    background: linear-gradient(0deg, rgba(27,31,80,1) 0%, rgba(67,40,183,1) 100%);
+    background-repeat: no-repeat;
+    z-index: -1;
+    overflow:hidden;
+}
+
+body{
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.boite_du_milieu {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+
+.logo{
+    text-align:center;
+    align-items: center;
+}
+
+.SSO{
+    text-align:center;
+    align-items: center;
+}
+
+.bouton_SSO {
+    border: 1px solid #666666;
+    width: 80%;
+    border-radius: 3px;
+    display: flex;
+    height: 50px;
+    margin-left:10%;
+    background-color: white;
+}
+
+.link{
+    border: none;
+    display:flex;
+    padding-left: 12%;
+}
+
+.logo_SSO {
+    width: 35px;
+    height: 35px;
+    display:flex;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.text_SSO{
+    width: 100%;
+    display: flex;
+    margin-left: 25px;
+    color:black;
+}
+
+.trait_de_separation{
+    width: 75%;
+    margin-left:12.5%;
+    padding: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #ec106e;
+}
+
+.identifiant{
+    width:100%;
+    margin-bottom: 25px;
+}
+
+.label_identifiant {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 80%;
+    text-align: right;
+    color: white;
+}
+
+.input_identifiant{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 80%;
+
+}
+
+.connexion{
+    text-align:center;
+    align-items: center;
+}
+
+.bouton{
+    display:flex;
+    width:100%;
+}
+
+.bouton_{
+    width: 45%;
+    margin-top:2px;
+    margin-left:2%;
+    border-radius: 3px;
+    border: 1px solid #666666;
+    background-color: white;
+    cursor: pointer;
+    color:black;
+}
+}
+  
+  /* Styles pour les téléphones mobiles */
+@media only screen and (max-width: 767px) {
+
+    
+.fond {
+    left:0px;
+    top:0px;
+    width: 100%;
+    position: absolute;
+    height: 2000px;
+    background: rgb(27,31,80);
+    background: linear-gradient(0deg, rgba(27,31,80,1) 0%, rgba(67,40,183,1) 100%);
+    background-repeat: no-repeat;
+    z-index: -1;
+    overflow:hidden;
+}
+
+body{
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.boite_du_milieu {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+.logo{
+    text-align:center;
+    align-items: center;
+}
+
+.SSO{
+    text-align:center;
+    align-items: center;
+}
+
+.bouton_SSO {
+    border: 1px solid #666666;
+    width: 80%;
+    border-radius: 3px;
+    display: flex;
+    height: 50px;
+    margin-left:10%;
+    background-color: white;
+}
+
+.link{
+    border: none;
+    display:flex;
+    padding-left: 12%;
+}
+
+.logo_SSO {
+    width: 35px;
+    height: 35px;
+    display:flex;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.text_SSO{
+    width: 100%;
+    display: flex;
+    margin-left: 25px;
+    margin-top: 5px;
+    color:black;
+}
+
+.trait_de_separation{
+    width: 75%;
+    margin-left:12.5%;
+    padding: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #ec106e;
+}
+
+.identifiant{
+    width:100%;
+    margin-bottom: 25px;
+}
+
+.label_identifiant {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 80%;
+    text-align: right;
+    color: white;
+}
+
+.input_identifiant{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 80%;
+
+}
+
+.connexion{
+    text-align:center;
+    align-items: center;
+}
+
+.bouton{
+    display:flex;
+    width:100%;
+}
+
+.bouton_{
+    width: 45%;
+    margin-top:2px;
+    margin-left:2%;
+    border-radius: 3px;
+    border: 1px solid #666666;
+    background-color: white;
+    cursor: pointer;
+    color:black;
+}
+    
+    /* Styles pour les téléphones iPhone 5/SE et plus petits */
+    @media only screen and (max-width: 568px) {
+      
+      
+    }
+    
+    /* Styles pour les téléphones iPhone 6/7/8 et plus grands */
+    @media only screen and (min-width: 569px) {
+      
+      
+    }
+}
+  

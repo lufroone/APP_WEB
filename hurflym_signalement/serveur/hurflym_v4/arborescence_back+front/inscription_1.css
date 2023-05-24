@@ -1,0 +1,120 @@
+.fond {
+    left:0px;
+    top:0px;
+    width: 100%;
+    position: absolute;
+    height: 1200px;
+    background: rgb(27,31,80);
+    background: linear-gradient(0deg, rgba(27,31,80,1) 0%, rgba(67,40,183,1) 100%);
+    background-repeat: no-repeat;
+    z-index: -1;
+    overflow:hidden;
+}
+
+body{
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.boite_du_milieu {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 200px;
+}
+
+
+.titre_de_presentation{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+
+}
+
+.description{
+    padding-top: 25px;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.formulaire{
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#validation{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 100px;
+    width: 50%;
+    border-radius: 25px;
+    margin-left: 25%;
+    color: white;
+    background: rgb(27,31,80);
+    background: linear-gradient(0deg, rgba(67,40,183,1) 100%, rgba(27,31,80,1) 0%);
+}
+
+input{
+    margin-top: 25px;
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 0 2em #4328B7;
+    border-color: #4328B7;
+}
+
+#message{
+    width: 80%;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+
+.verification_mot_de_passe{
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.valide{
+    color: green;
+}
+
+.valide:before{
+    position: relative;
+    left: -7px;
+    content: "\2705";
+}
+
+.invalide{
+    color: red;
+}
+
+.invalide:before{
+    position: relative;
+    left: -7px;
+    content: "\2714 \FE0F";
+}
+
+#message{
+    display: none;
+    padding-bottom: 15px;
+}
+
+#titre_message{
+    font-size: 1.3rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

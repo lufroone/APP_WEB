@@ -1,0 +1,220 @@
+body{
+    color: #ffffff!important;
+    border-radius: 0px;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-family: 'Titillium Web',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    margin:0;
+    background-color: #1b1f50;
+    text-align:center;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+main{
+    width: 80%;
+    padding: 0px;
+    margin-top: 9%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    /*position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+
+input{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.page{
+    display: none;
+}
+
+.header{
+    margin-top:8px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.27%;
+}
+
+button{
+    width:100px;
+    height:40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 60px 0pxrgba(60,60,200,0.4);
+        
+    font-family: 'Source Sans Pro',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 10px;
+    color: rgba(255,255,255,0.7)!important;
+    background-color: rgba(60,60,200,0.2);
+    border-width: 0px;
+    border-color: #4328B7;
+    padding-top: 1px!important;
+    padding-right: 16px!important;
+    padding-bottom: 1px!important;
+    padding-left: 12px!important;
+}
+    
+h3{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 11px;
+}
+
+.foter{
+    background-color: #28186A;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.logo{
+    margin-left:25%;
+}
+
+
+.img{
+    margin-left:auto;
+}
+
+.middle{
+    width: 25%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:17%;
+}
+
+
+.trait{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-bottom: 2.75%;
+    height: 4px;
+    max-width: 80px;
+    margin: 0 0 30px;
+    position: relative;
+    background-color: #4328B7;
+}
+
+.trait_bas{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-bottom: 2.75%;
+    height: 4px;
+    max-width: 80px;
+    margin: 0 0 30px;
+    position: relative;
+    background-color: #1b1f50;
+}
+
+.center{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.all{
+    width:100%;
+    height:300px;
+    overflow:scroll;
+}
+
+#cote{
+    text-align: left;
+}
+
+.bas_de_page{
+    width:100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../image/bas_de_page_4.svg');
+}
+
+.bordure_haut_de_page{
+    width:100%;
+    height:400px;
+    margin-top:-8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../image/bordure_haut_de_page_2.svg');
+}
+
+.vague_basse_salle{
+    width:100%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../image/vague_basse_salle.svg');
+}
+
+.vague_basse_signalement{
+    width:100%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../image/vague_basse_signalement.svg');
+}
+
+.vague_haute_salle{
+    width:100%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../image/vague_haute_salle.svg');
+}
+
+.vague_haute_signalement{
+    width:100%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../image/vague_haute_signalement.svg');
+}
+
+.entre_deux{
+    width:100%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../image/entre_deux_2.svg');
+}
+
+.rose{
+    background-color: #4328B7;
+}
+
+.bleu{
+    background-color:#1b1f50;
+}
+
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+}
